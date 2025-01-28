@@ -8,15 +8,16 @@
   background-color: #f3f0f0;
 
   font-synthesis: none;
-  text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+h1 {
+  text-align: center;
+}
 body {
   margin: 0 auto;
-  display: flex;
+  display:flex;
   justify-content: center;
-
   min-width: 320px;
   min-height: 100vh;
 
@@ -24,7 +25,6 @@ body {
   background: linear-gradient(62deg, #8ea2fc 0%, #e0c3fc 100%);
 }
 
-h1,
 h2,
 h3,
 h4,
